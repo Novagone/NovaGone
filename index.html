@@ -1,118 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netflix web clone</title>
-    <link rel="stylesheet" href="style.css">
+    <title>E-portfolio</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="icon" type="images/x-icon" href="images/Screenshot 2023-07-18 201847.png" />
 </head>
+
 <body>
-<div class="header">
-    <nav>
-        <img src="images/logo.png" class="logo">
-        <div>
-            <button class="language-btn">English <img src="images/down-icon.png" ></button>
-            <button>Sign in</button>
-        </div>
-    </nav>
-    <div class="header-content">
-        <h1>Unlimited movies, TV shows and more.</h1>
-        <h3>Watch anywhere. Cancel anytime</h3>
-        <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <form class="email-signup">
-            <input type ="email" placeholder="Email address" required>
-            <button type="submit">Get started</button>
-        </form>
-    </div>
 
-</div>
+    <header>
+    <div class="navigation">
+        <h1>Joe Hand's Portfolio</h1>
+        <div class="list">
+            <nav>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            
 
-<div class="features">
-    <div class="row">
-        <div class="text-col">
-            <h2>Enjoy on your TV</h2>
-            <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+            </nav>
+            
+            <div class="cog">
+                <button onclick="myFunction()"><img src="images/70314.png"></button>
         </div>
-        <div class="img-col">
-            <img src="images/feature-1.png">
-        </div>
-    </div>
-    <div class="row">
-        <div class="img-col">
-            <img src="images/feature-3.png">
-        </div>
-        <div class="text-col">
-            <h2>Watch everywhere</h2>
-            <p>Stream unlimited films and TV programmes on your phone, tablet, laptop and TV.</p>
-        </div>
+
         
     </div>
-    <div class="row">
-        <div class="text-col">
-            <h2>Create profiles for children</h2>
-            <p>Send children on adventures with their favourite characters in a space made just for them – free with your membership.</p>
-        </div>
-        <div class="img-col">
-            <img src="images/feature-4.png">
-        </div>
-    </div>
-    <div class="row">
-        <div class="img-col">
-            <img src="images/feature-2.png">
-        </div>
-        <div class="text-col">
-            <h2>Download your programmes to watch offline</h2>
-            <p>Only available on advert-free plans.</p>
-        </div>
-        </div>
-    </div>
-</div>
 
-<div class="footer-content">
-    <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <form class="email-signup">
-            <input type ="email" placeholder="Email address" required>
-            <button type="submit">Get started</button>
     
-</div>
-
-<div class="contact">
-    <h3>Questions? call 000-000-000-000</h3>
-</div>
+    
+    </header>
+    
 
 
-<div class="details">
-    <div class="row">
-        <div class="col">
-            <a href="#">FAQ</a>
-            <a href="#">Help centre</a>
-            <a href="#">Account</a>
-            <a href="#">Media centre</a>
-        <div class="col">
-            <a href="#">Investor relations</a>
-            <a href="#">Jobs</a>
-            <a href="#">Netflix Shop</a>
-            <a href="#">Redeem gift cards</a>
-        <div class="col">
-            <a href="#">Buy Gift Cards</a>
-            <a href="#">Ways to watch</a>
-            <a href="#">terms of use</a>
-            <a href="#">Privacy</a>
-        <div class="col">
-            <a href="#">Contact us</a>
-            <a href="#">Speed test</a>
-            <a href="#">Legal gurantee</a>
+    <div class="login">
+        <a href="https://novagone.github.io/login-func/">Login tool</a>
+        <img src="images/Screenshot 2023-07-22 185811.png">
+    </div>
+    
+    <div class="shop">
+        <a href="https://novagone.github.io/shoe-shop/">Shoe Shop</a>
+        <img src="images/Screenshot 2023-07-23 180923.png">
+    </div>
+
+    <div class="netflix">
+        <a href="https://novagone.github.io/first-website/">Netflix clone</a>
+        <img src="images/Screenshot 2023-07-18 201847.png">
+    </div>
+
+    
+
+    
+    <div class="cv">
+            <div class="about" id="about">
+                <h1>About Me</h1>
+            </div>
+            <div class="products" id="products">
+                <h1>Products</h1>
+            </div>
             
+            <div class="education" id="education">
+                <h1>Education</h1>
+            </div>
+            
+            
+
+    </div>
+
     
+
+    <footer>
+        <div class="login-box" id="contact">
+            <h2>Contact</h2>
+            <form>
+                <div class="user-box">
+                <input type="text" name="" required="">
+                <label>Name</label>
+                </div>
+                <div class="user-box">
+                <input type="tel" name="" required="">
+                <label>Phone number</label>
+                </div>
+                <div class="user-box">
+                <input type="email" name="" required="">
+                <label>Email</label>
+                </div>
+                <a href="#">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Submit
+                </a>
+            </form>
+            </div>
         </div>
     
-    </div>
-</div>
-
-<div class="logo2">
-    <img src="images/logo.png">
-</div>
+    
+        <div class="foot">
+            <p>&copy; 2023 Joe Hand's Portfolio</p>
+        </div>
+    </footer>
+    
+    
+    
+    <script>
+    function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
+</script>
 
     
+
+  
 </body>
+
+
+
+
+
+
+
+
 </html>
